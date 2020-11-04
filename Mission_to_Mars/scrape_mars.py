@@ -73,7 +73,7 @@ def scrape_feat_image(browser):
         return nasa_photo
 
 # Mars Facts Scrape
-def scape_mars_facts(browser):
+def scrape_mars_facts(browser):
 
         # Use Pandas to scrape Mars facts data
         tables = pd.read_html('https://space-facts.com/mars/')
